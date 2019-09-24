@@ -1,0 +1,19 @@
+Hour1 = 0
+Hour2 = 0
+Minute1 = 0
+Minute2 = 0
+Second1 = 0
+Second2 = 0
+Sec1 = 0
+Sec2 = 0
+Sec3 = 0
+Hour1 = int(input("Add meg az orat: "))
+Minute1 = int(input("Add meg a percet: "))
+Second1 = int(input("Add meg a masodpercet: "))
+Hour2 = int(input("Add meg az orat: "))
+Minute2 = int(input("Add meg a percet: "))
+Second2 = int(input("Add meg a masodpercet: "))
+Sec1 = (Hour1 * 3600 + Minute1 * 60 + Second1)
+Sec2 = (Hour2 * 3600 + Minute2 * 60 + Second2)
+Sec3 = Sec2 - Sec1
+print ("A ket ido kozotti kulonbseg " + str(Sec3) + " masodperc.")
